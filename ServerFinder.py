@@ -36,4 +36,4 @@ async def on_ready():
     print(f'Bot is ready as {bot.user}')
 
 
-bot.run('TU_BOT_TOKEN')
+bot.run('MTM2MzczMTQ3NzQ1NTU3MzA5Mw.GPt7gA.t8MscAFBdYxF05y5trh-fEs2ebjjx1l0c-8lwg')
