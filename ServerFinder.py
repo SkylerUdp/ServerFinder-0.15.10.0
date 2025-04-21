@@ -2,6 +2,9 @@ import discord
 from discord.ext import commands
 import socket
 import json
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix='.', intents=intents)
@@ -59,4 +62,4 @@ async def on_ready():
     print(f'Bot is ready as {bot.user}')
 
 # Ejecutar el bot
-bot.run('MTM2MzczMTQ3NzQ1NTU3MzA5Mw.GRdvg5.eevMZIV_-fChz0gGqn2Znl37H-RLvne9AAS9yU')
+bot.run(os.getenv("DISCORD_TOKEN"))
