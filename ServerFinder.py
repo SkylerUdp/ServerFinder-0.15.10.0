@@ -59,4 +59,4 @@ async def on_ready():
     print(f'Bot is ready as {bot.user}')
 
 # Ejecutar el bot
-bot.run('MTM2MzczMTQ3NzQ1NTU3MzA5Mw.GbbpAT.noXufYy2eWzRLxRzE3A3jVFAJTAjLdHqyjSd08')
+bot.run('MTM2MzczMTQ3NzQ1NTU3MzA5Mw.GRdvg5.eevMZIV_-fChz0gGqn2Znl37H-RLvne9AAS9yU')
